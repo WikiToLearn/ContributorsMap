@@ -9,12 +9,10 @@
     "license-name":"GPLv3",
     "type":"special",
     "AutoloadClasses":{
-        "ContributorsMap":"ContributorsMap.class.php"
+        "SpecialContributorsMap":"SpecialContributorsMap.php"
     },
-    "Hooks":{
-      "ParserFirstCallInit": [
-          "ContributorsMap::onParserSetup"
-        ]
+    "SpecialPages" : {
+        "ContributorsMap": "SpecialContributorsMap"
     },
-    "manifest_version":1
+    "manifest_version": 1
 }
