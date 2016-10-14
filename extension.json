@@ -1,18 +1,36 @@
 {
-    "name":"ContributorsMap",
-    "version":"0.1.0",
-    "author":[
+    "name": "ContributorsMap",
+    "version": "0.1.0",
+    "author": [
         "Riccardo Iaconelli"
     ],
-    "url":"https://github.com/WikiToLearn/ContributorsMap",
-    "descriptionmsg":"",
-    "license-name":"GPLv3",
-    "type":"special",
-    "AutoloadClasses":{
-        "SpecialContributorsMap":"SpecialContributorsMap.php"
+    "url": "https://github.com/WikiToLearn/ContributorsMap",
+    "descriptionmsg": "",
+    "license-name": "GPLv3",
+    "type": "special",
+    "AutoloadClasses": {
+        "SpecialContributorsMap": "SpecialContributorsMap.php"
     },
-    "SpecialPages" : {
+    "SpecialPages": {
         "ContributorsMap": "SpecialContributorsMap"
+    },
+    "config": {
+        "CMURL": "umap.openstreetmap.fr/en/map/wikitolearn-community_106733",
+        "CMDisplay" : {
+            "scaleControl": "false",
+            "miniMap": "false",
+            "scrollWheelZoom": "false",
+            "zoomControl": "true",
+            "allowEdit": "false",
+            "moreControl": "null",
+            "searchControl": "null",
+            "tilelayersControl": "null",
+            "embedControl": "null",
+            "datalayersControl": "null",
+            "onLoadPanel": "undefined",
+            "captionBar": "false"
+        }
+
     },
     "manifest_version": 1
 }
