@@ -15,7 +15,7 @@
         "ContributorsMap": "SpecialContributorsMap"
     },
     "config": {
-        "CMURL": "umap.openstreetmap.fr/en/map/wikitolearn-community_106733",
+        "CMURL": "",
         "CMDisplay" : {
             "scaleControl": "false",
             "miniMap": "false",
